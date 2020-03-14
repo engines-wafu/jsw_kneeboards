@@ -10,6 +10,7 @@ export EIGHT01P="801/"
 # list of common files
 
 export COMMON="
+  0AtitlePage.md
   01commsPlan.md
   02approachLand.md
   03approachSea.md
@@ -24,6 +25,7 @@ done
 
 export EIGHT01="
   11preStart.md
+  12Start.md
 "
 
 for i in $EIGHT01
@@ -33,4 +35,4 @@ done
 
 # Create each set of squadron FRCs:
 
-pandoc -V papersize:a5 -i $IP0 $IP1 -o FRC_801.pdf
+pandoc -i $IP0 $IP1 -o FRC_801.pdf
