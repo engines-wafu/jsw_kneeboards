@@ -5,6 +5,7 @@ author: 801 Naval Air Squadron
 papersize: a5
 fontsize: 10pt
 fontfamily: charter
+geometry: margin=0.5in
 output: pdf_document
 ---
 \newpage
