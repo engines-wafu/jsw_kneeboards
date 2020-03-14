@@ -15,3 +15,35 @@ In the future it is expected that there will be three versions of the cards crea
 ## Layout
 
 To align with real-world FRCs, these cards will be broken down into three sections: normal, abnormal, and emergency procedures.
+
+### Section
+
+The following list of sections is under development.
+
+- Pre-Start
+- Startup
+- Taxi
+- Tack-off
+  - CTO
+  - VTO
+  - STO
+- Caution Panel
+- Landing
+  - CL
+  - VL
+- AWLS
+- TACAN Navigation
+- NAVFLIR
+- ARBS
+  - LST
+  - TV
+- AN/AAQ-28
+- Laser Code
+- CCIP/CCRP
+- GBU
+- AGM-65s
+- Rocket/GAU-12
+- AGM-122
+- A/A AIM-9M
+- Stores Jettison
+- RWR
