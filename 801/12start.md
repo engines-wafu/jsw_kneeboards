@@ -21,5 +21,6 @@ Engine Panel Brightness | `As required`
 Flaps | `On`
 Anti-skid | `On`
 HUD Master Mode | `VSTOL`
+Exterior Lights | `As required`
 
 \newpage

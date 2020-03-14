@@ -14,9 +14,8 @@ export COMMON="
   0BsectionOneDivider.md
   01commsPlan.md
   02approachLand.md
-  03approachSea.md
   Z1UG5Xapproach.md
-  Z2UG5Xchart.md
+  03approachSea.md
 "
 
 for i in $COMMON
@@ -27,9 +26,9 @@ done
 # list of 801 Squadron files
 
 export EIGHT01="
-  0CsectionTwoDivider.md
   11preStart.md
   12Start.md
+  0CsectionTwoDivider.md
   0DsectionThreeDivider.md
 "
 

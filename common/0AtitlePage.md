@@ -7,6 +7,9 @@ fontsize: 10pt
 fontfamily: charter
 geometry: margin=0.5in
 output: pdf_document
+header-includes:
+- \usepackage{fancyhdr}
+- \usepackage{lastpage}
 ---
 \newpage
 \maketitle
@@ -19,3 +22,14 @@ output: pdf_document
 \clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
+
+<!--- Define Headers and Footers --->
+\fancypagestyle{plain}{%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhf{}%
+  \fancyfoot[C]{\footnotesize \thepage}
+  \fancyfoot[L]{\footnotesize Joint Strike Wing}
+  \fancyfoot[R]{\footnotesize \rightmark}
+  \setlength\footskip{0pt}
+}
+\pagestyle{plain}
