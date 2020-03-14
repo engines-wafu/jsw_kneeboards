@@ -11,9 +11,11 @@ export EIGHT01P="801/"
 
 export COMMON="
   0AtitlePage.md
+  0BsectionOneDivider.md
   01commsPlan.md
   02approachLand.md
   03approachSea.md
+  Z1UG5Xapproach.md
 "
 
 for i in $COMMON
@@ -24,8 +26,10 @@ done
 # list of 801 Squadron files
 
 export EIGHT01="
+  0CsectionTwoDivider.md
   11preStart.md
   12Start.md
+  0DsectionThreeDivider.md
 "
 
 for i in $EIGHT01

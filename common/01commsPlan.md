@@ -1,2 +1,2 @@
-# Communications Plan
+## Communications Plan
 \newpage

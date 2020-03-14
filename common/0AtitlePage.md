@@ -1,5 +1,6 @@
 ---
-title: "Flight Reference Cards"
+title: "Joint Strike Wing"
+subtitle: "Flight Reference Cards"
 author: 801 Naval Air Squadron
 papersize: a5
 fontsize: 10pt
