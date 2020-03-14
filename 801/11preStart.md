@@ -8,8 +8,8 @@ DECS (switch above lever) | `On`
 Oxygen | `On`
 L and R pumps | `Normal`
 Nozzles | `As required`
-Battery | `on`
-Gen | `GEN`
+Battery | `On`
+Gen | `On`
 Fuel prop | `On`
 Lights | `On`
 Beacon | `On`
