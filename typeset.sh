@@ -16,6 +16,7 @@ export COMMON="
   02approachLand.md
   03approachSea.md
   Z1UG5Xapproach.md
+  Z2UG5Xchart.md
 "
 
 for i in $COMMON
