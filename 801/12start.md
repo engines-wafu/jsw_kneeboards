@@ -7,7 +7,7 @@ Ejection Seat | `Armed`
 Interior Lights | `As required`
 Audio | `As required`
 Radio | `TR+E`
-INS | `NAV`
+INS | `INS`
 Pitot Heat | `As required`
 FLIR | `As required`
 DMRT | `As required`
