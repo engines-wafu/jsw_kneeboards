@@ -9,6 +9,8 @@ All the content is written in markdown for simplicity.  Versioning is maintained
 - bash, zsh, sh, or other compatible POSIX shell
 - pandoc
 - git
+- imagemagick
+- pdftk
 
 ## Versions
 
@@ -63,3 +65,5 @@ The following list of sections is under development.  An asterisk represents a c
 - Emergency Procedures
   - Fire
   - Loss of Power
+- Approach Procedures and Charts
+  - UG5X

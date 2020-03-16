@@ -6,6 +6,11 @@
 
 export REVNO=$(git rev-list --count HEAD)
 
+# Add stamp text and crate stamp
+
+export STAMP="DRAFT - NOT APPROVED"
+echo $STAMP | convert -background none -density 600 -fill red -pointsize 24 -rotate -45 text:- -trim +repage media/draftStamp.pdf
+
 # State folder locations for each set of files
 
 export CP="common/"
@@ -61,4 +66,9 @@ done
 
 # Create each set of squadron FRCs:
 
-pandoc -i $IP0 $IP1 $IP2 -o FRC_801.pdf
+pandoc -i $IP0 $IP1 $IP2 -o FRC_801_output.pdf
+
+# Stamp pdfs
+
+pdftk FRC_801_output.pdf multistamp media/draftStamp.pdf output FRC_801.pdf
+rm FRC_801_output.pdf
