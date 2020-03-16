@@ -57,6 +57,7 @@ done
 export COMMON="
   0EsectionFourDivider.md
   Z1UG5Xapproach.md
+  Z2URMOapproach.md
 "
 
 for i in $COMMON
