@@ -18,17 +18,17 @@ To align with real-world FRCs, these cards will be broken down into three sectio
 
 ### Section
 
-The following list of sections is under development.  An asterisk represents a common section.
+The following list of sections is under development.  An asterisk represents a common section, an exclamation mark represents in work, and an x represents published.
 
 - Normal Procedures
-  - Comms Plan *
+  - Comms Plan * !
   - Formation Flight *
-  - Departures Procedures, Land *
+  - Departures Procedures, Land * 
   - Departures Procedures, Sea *
   - Arrival Procedures, Land *
   - Arrival Procedures, Sea *
-  - Pre-Start
-  - Startup
+  - Pre-Start ! x
+  - Startup ! x
   - Taxi
   - Take-off
     - CTO

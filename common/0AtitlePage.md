@@ -5,7 +5,7 @@ author: 801 Naval Air Squadron
 papersize: a5
 fontsize: 10pt
 fontfamily: charter
-geometry: margin=0.5in
+geometry: margin=0.25in
 output: pdf_document
 header-includes:
 - \usepackage{fancyhdr}
@@ -29,7 +29,8 @@ header-includes:
   \fancyhf{}%
   \fancyfoot[C]{\footnotesize \thepage}
   \fancyfoot[L]{\footnotesize Joint Strike Wing}
-  \fancyfoot[R]{\footnotesize \rightmark}
+  \fancyfoot[R]{\footnotesize Version: 0.1.##REV##}
+<!---  \fancyfoot[R]{\footnotesize \rightmark} --->
   \setlength\footskip{0pt}
 }
 \pagestyle{plain}
