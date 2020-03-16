@@ -4,9 +4,11 @@ A set of kneeboards for use by the Joint Strike Wing as Flight Reference Cards (
 
 ## Construction
 
-All the content is written in markdown for simplicity.  The final pdfs can be created by executing the typeset.sh script providing you have the required dependencies, which are:
+All the content is written in markdown for simplicity.  Versioning is maintained through git.  The final pdfs can be created by executing the typeset.sh script in a shell providing you have the required dependencies, which are:
 
+- bash, zsh, sh, or other compatible POSIX shell
 - pandoc
+- git
 
 ## Versions
 
