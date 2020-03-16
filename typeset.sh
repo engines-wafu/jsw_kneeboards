@@ -2,10 +2,18 @@
 
 # This file will create the output pdf version of the kneeboard.
 
+# Get current revision number of the repo
+
+export REVNO=$(git rev-list --count HEAD)
+
 # State folder locations for each set of files
 
 export CP="common/"
 export EIGHT01P="801/"
+
+# Put revision number in title page
+
+cat $CP/00titleMaster.md | sed "s/REV/$REVNO/" > $CP/0AtitlePage.md
 
 # list of common front files
 

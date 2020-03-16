@@ -29,7 +29,7 @@ header-includes:
   \fancyhf{}%
   \fancyfoot[C]{\footnotesize \thepage}
   \fancyfoot[L]{\footnotesize Joint Strike Wing}
-  \fancyfoot[R]{\footnotesize Version: 0.1.14}
+  \fancyfoot[R]{\footnotesize Version: 0.1.REV}
   \setlength\footskip{0pt}
 }
 \pagestyle{plain}
