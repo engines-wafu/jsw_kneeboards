@@ -2,6 +2,24 @@
 
 A set of kneeboards for use by the Joint Strike Wing as Flight Reference Cards (FRCs).
 
+## Installation
+
+Create the following folder if it does not already exist:
+
+`Users/Saved Games/DCS.Openbeta/Kneeboard/`
+
+In this folder extract the zip file appropriate to your squadron into the corresponding folder as follows:
+
+Squadron | Location
+-------- | --------
+801 | `av8bna`
+809 | `fa-18c_hornet`
+43 | `F-14b`
+
+To remove unwanted default kneeboard pages that are not relevant for squadron operations, move the contents of the following folders to a safe location:
+
+`Program Files/Eagle Dynamics/DCS World Open Beta/Mods/terrains/Caucasus/Kneeboards`
+
 ## Construction
 
 All the content is written in markdown for simplicity.  Versioning is maintained through git.  The final pdfs can be created by executing the typeset.sh script in a shell providing you have the required dependencies, which are:
@@ -18,7 +36,7 @@ In the future it is expected that there will be three versions of the cards crea
 
 ## Layout
 
-To align with real-world FRCs, these cards will be broken down into three sections: normal, abnormal, and emergency procedures.
+To align with real-world FRCs, these cards will be broken down into three sections: normal, abnormal, and emergency procedures.  At the end are included charts and approach plates for relevant airports.
 
 ### Section
 
