@@ -1,3 +1,4 @@
-![](media/approachURMO.jpg)
-
-![](media/chartURMO.jpg)
+![](media/approachURMO.png){width=510px}
+\newpage
+![](media/chartURMO.png){width=510px}
+\newpage
