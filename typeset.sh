@@ -8,7 +8,7 @@ export REVNO=$(git rev-list --count HEAD)
 
 # Add stamp text and crate stamp
 
-export STAMP="DRAFT - NOT APPROVED"
+export STAMP="INSTALLATION VAL VER COPY"
 echo $STAMP | convert -background none -density 600 -fill red -pointsize 24 -rotate -45 text:- -trim +repage media/draftStamp.pdf
 
 # State folder locations for each set of files
@@ -24,6 +24,7 @@ cat $CP/00titleMaster.md | sed "s/REV/$REVNO/" > $CP/0AtitlePage.md
 
 export COMMON="
   0AtitlePage.md
+  Z0revisionHistory.md
   0BsectionOneDivider.md
   01commsPlan.md
   02approachLand.md
@@ -50,7 +51,7 @@ export EIGHT01="
 
 for i in $EIGHT01
 do
-  IP1+="$EIGHT01P$i "
+  IP801+="$EIGHT01P$i "
 done
 
 # list of common back files
@@ -59,6 +60,7 @@ export COMMON="
   0EsectionFourDivider.md
   Z1UG5Xapproach.md
   Z2URMOapproach.md
+  Z3UGKOapproach.md
 "
 
 for i in $COMMON
@@ -66,11 +68,15 @@ do
   IP2+="$CP$i "
 done
 
-# Create each set of squadron FRCs:
+# Create each set of squadron FRCs
 
-pandoc -i $IP0 $IP1 $IP2 -o FRC_801_output.pdf
+pandoc -i $IP0 $IP801 $IP2 -o FRC_801_output.pdf
 
 # Stamp pdfs
 
 pdftk FRC_801_output.pdf multistamp media/draftStamp.pdf output FRC_801.pdf
+
+# Zip kneeboards and remove unwanted files
+
+zip FRC_801 FRC_801*
 rm FRC_801_output.pdf

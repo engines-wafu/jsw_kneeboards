@@ -7,10 +7,8 @@ CWAIVER Checks | `As required`
 . W - Weapons Program | `Menu - Stores`
 .. Weapon Config | `Fuze/`
 .. Arm | `Set`
-.. Solenoid | `Set`
 .. Auto--CCIP | `Set`
 .. Q:M:I | `Set`
-.. Tone | `Boxed`
 .. IR Cool | `As Required`
 .. TPE | `Menu - EHSD - Data - Tn`
 .. Program | `As Required`

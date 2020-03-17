@@ -4,7 +4,7 @@ CALL | RESPONSE
 ---- | --------
 One Finger Checks | ` `
 . NRAS | `As Required`
-. PC | `14`
+. PC | `14 Deg`
 . STO Stop | `As Required`
 . Trim | `2 Deg Nose Up`
 . Flaps | `As Required`
