@@ -1,3 +1,3 @@
-![](media/approachURMO.jpg)
+![](media/approachURMO.png)
 
-![](media/chartURMO.jpg)
+![](media/chartURMO.png)

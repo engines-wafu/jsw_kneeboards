@@ -1,4 +1,4 @@
-![](media/approachU5GX.jpg)
+![](media/approachU5GX.png)
 
-![](media/chartUG5X.jpg)
+![](media/chartUG5X.png)
 
