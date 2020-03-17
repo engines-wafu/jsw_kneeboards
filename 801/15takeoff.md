@@ -9,6 +9,7 @@ One Finger Checks: | ` `
 . Flaps | `Auto`
 . Warning/Caution Lts | `Out`
 Initiate Takeoff: | ` `
+. Nozzles | `Forward`
 . NWS | `Engage`
 . Throttle | `Full`
 . Brakes | `Release on Skid`
@@ -18,8 +19,8 @@ Initiate Takeoff: | ` `
 . During Liftoff | `Wings Level, No Slip`
 . Set Attitude | `Witches Hat at the PC`
 
-**CAUTION**
-
+CAUTION
+-------
 Uncommanded nosewheel steering angle excursions may occur if after lift--off an immediate turn is made. With lift--off above 100 KGS, the nosewheel may cant to such a degree that undesirable ground handling characteristics may occur on touch down. Extending upwind for approximately 10 to 15 seconds while rotational speed slows down can minimize this gyroscopic effect.
 
 ### STO
@@ -52,9 +53,31 @@ One Finger Checks: | ` `
 Two/Five Finger Checks: | ` `
 . Water | `As Required`
 Initiate Takeoff: | ` `
+. Nozzles | `82`
 . NWS | `Engage`
 . Throttle | `Full`
 . Brakes | `Hold Until Airborne`
+. During Liftoff | `Wings Level, Hold Heading, Stop Drift`
+. At 20-25' AGL | `Reduce Power to Maintain Hover`
+. Wingborne Flight | `Transition`
+
+### RVTO
+
+CALL | RESPONSE
+---- | --------
+One Finger Checks: | ` `
+. STO Stop | `72`
+. Flaps | ` STOL`
+. Warning/Caution Lts | `Out`
+Two/Five Finger Checks: | ` `
+. Water | `As Required`
+Initiate Takeoff: | ` `
+. Nozzles | `30`
+. NWS | `Engage`
+. Throttle | `Full`
+. Brakes | `Release on Skid`
+On 110 Percent RPM: | ` `
+. Nozzles | `Stop`
 . During Liftoff | `Wings Level, Hold Heading, Stop Drift`
 . At 20-25' AGL | `Reduce Power to Maintain Hover`
 . Wingborne Flight | `Transition`

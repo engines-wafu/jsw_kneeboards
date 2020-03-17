@@ -3,9 +3,9 @@ title: "Joint Strike Wing"
 subtitle: "Flight Reference Cards"
 author: 801 Naval Air Squadron
 papersize: a5
-fontsize: 10pt
+fontsize: 14pt
 fontfamily: charter
-geometry: margin=0.25in
+geometry: margin=0.35in
 output: pdf_document
 header-includes:
 - \usepackage{fancyhdr}

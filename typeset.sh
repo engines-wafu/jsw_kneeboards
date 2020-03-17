@@ -43,6 +43,7 @@ export EIGHT01="
   13preTaxi.md
   14taxi.md
   15takeoff.md
+  16afterTakeoff.md
   0CsectionTwoDivider.md
   0DsectionThreeDivider.md
 "

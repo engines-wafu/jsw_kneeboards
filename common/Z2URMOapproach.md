@@ -1,7 +1,3 @@
-## UG5X - Kobuleti
-![](https://raw.githubusercontent.com/gavinedwards/jsw_kneeboards/master/media/approachURMO.jpg)
-\newpage
+![](media/approachURMO.jpg)
 
-![](https://raw.githubusercontent.com/gavinedwards/jsw_kneeboards/master/media/chartURMO.jpg)
-
-\newpage
+![](media/chartURMO.jpg)
